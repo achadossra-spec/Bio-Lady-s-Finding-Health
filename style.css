@@ -1,0 +1,64 @@
+/* Estilo básico */
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    background-color: #a9e4b6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    max-width: 400px;
+    margin: 0px;
+}
+
+h1 {
+    color: #333;
+    padding-top: 40px;
+}
+
+.product-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.product-details {
+    margin-top: 20px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #022103;
+}
+
+.container2 {
+    padding: 40px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.letrasdofinal {
+    width:85%;
+    margin:0 auto;
+    text-align: center;
+}
